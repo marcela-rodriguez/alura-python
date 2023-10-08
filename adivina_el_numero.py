@@ -1,6 +1,8 @@
+import random
 print("Adivina el numero")
 
-numero_secreto = 55
+#numero_secreto = round(random.random()*100)
+numero_secreto = random.randint(1,100)
 total_intentos = 3
 
      
